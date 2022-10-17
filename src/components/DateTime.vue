@@ -49,10 +49,15 @@ export default {
                 years: currentDateTime.getFullYear(),
             }
         },
+        toggleTheme() {
+            this.$vuetify.theme.dark = !this.$vuetify.theme.dark;
+        },
     },
+
     beforeMount() {
         this.timer = setInterval(this.showCurrentDateTime, 1000);
     },
+
     beforeUnmount() {
         clearInterval(this.timer);
     },
@@ -61,7 +66,7 @@ export default {
   
 <style>
 .text-center {
-    transform: translateY(-10%);
+    transform: translateY(-20%);
 }
 
 .time {
