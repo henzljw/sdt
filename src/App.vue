@@ -4,14 +4,12 @@
     <v-main>
       <DateTime />
     </v-main>
-    <FooterBar />
   </v-app>
 </template>
 
 <script>
 import AppBar from './components/AppBar';
 import DateTime from './components/DateTime';
-import FooterBar from './components/FooterBar';
 
 export default {
   name: 'App',
@@ -19,7 +17,6 @@ export default {
   components: {
     AppBar,
     DateTime,
-    FooterBar
   },
 
   data: () => ({
