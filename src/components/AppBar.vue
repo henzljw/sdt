@@ -25,15 +25,18 @@
                         </template>
                         <v-card>
                             <v-card-title>
-                                About this website
+                                About sdt
                             </v-card-title>
                             <v-card-text>
-                                This project is a mini project.
+                                sdt is a live date and time viewer web application to show live date and time. It is
+                                engineered with Vue.js framework and Vuetify framework, a Material Design framework for
+                                Vue.js. The application is in beta stage so stay tuned for upcoming features to bake in
+                                this application.
                             </v-card-text>
                             <v-card-actions>
                                 <v-spacer></v-spacer>
                                 <v-btn text @click="dialog = false">
-                                    Ok
+                                    Close
                                 </v-btn>
                             </v-card-actions>
                         </v-card>
