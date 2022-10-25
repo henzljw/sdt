@@ -26,12 +26,6 @@ export default {
 </script>
 
 <style>
-@font-face {
-  font-family: "Product Sans Regular";
-  src: local("Product Sans Regular"),
-    url(./fonts/Product-Sans-Regular.ttf) format("truetype");
-}
-
 html {
   overflow-y: auto;
 }

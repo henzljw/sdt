@@ -2,7 +2,7 @@
     <v-app-bar app elevation="0">
         <v-spacer></v-spacer>
         <v-btn icon v-if="!$vuetify.theme.dark" @click="toggleTheme()">
-            <v-icon class="mr-1" color="blue-grey darken-4">mdi-lightbulb</v-icon>
+            <v-icon color="blue-grey darken-4">mdi-lightbulb</v-icon>
         </v-btn>
         <v-btn icon v-if="$vuetify.theme.dark" @click="toggleTheme()">
             <v-icon color="yellow darken-3">mdi-lightbulb-on</v-icon>
@@ -55,7 +55,6 @@ export default {
         return {
             dialog: false,
         }
-        // closeOnClick: true,
     },
 
     methods: {
