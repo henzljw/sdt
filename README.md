@@ -2,6 +2,8 @@
 
 > [sdt](https://sdt.vercel.app/) is a live date and time viewer web application that based on Vue.js framework and Vuetify framework, a Material Design framework for Vue.js. It's a part of my mini project which is used to explore and gain some knowledge about Vue.js framework. It's still in beta stage currently and more features are incoming to the web application so stay tuned for it.
 
+![ss-sdt](https://user-images.githubusercontent.com/65068770/197749574-29be7814-2a8e-425e-9368-c07bbffb28e4.png)
+
 ### Features
 
 📆 Live Date and Time  
