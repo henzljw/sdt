@@ -1,5 +1,5 @@
 <template>
-    <v-app-bar app elevation="0">
+    <v-app-bar app elevation="0" color="transparent">
         <v-spacer></v-spacer>
         <v-btn icon v-if="!$vuetify.theme.dark" @click="toggleTheme()">
             <v-icon color="blue-grey darken-4">mdi-lightbulb</v-icon>
