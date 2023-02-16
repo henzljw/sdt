@@ -1,6 +1,11 @@
 <template>
     <v-app-bar app elevation="0" color="transparent">
         <v-spacer></v-spacer>
+        <a href="https://github.com/henzljw/sdt" target="blank">
+            <v-btn icon color="purple darken-4">
+                <font-awesome-icon icon="fa-brands fa-github" size="xl" />
+            </v-btn>
+        </a>
         <v-btn icon v-if="!$vuetify.theme.dark" @click="toggleTheme()">
             <v-icon color="blue-grey darken-4">mdi-lightbulb</v-icon>
         </v-btn>
@@ -44,7 +49,7 @@
                 </v-list-item-group>
             </v-list>
         </v-menu>
-    </v-app-bar>
+</v-app-bar>
 </template>
 
 <script>
