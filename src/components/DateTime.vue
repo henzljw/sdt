@@ -1,5 +1,5 @@
 <template>
-    <v-container fill-height fluid>
+    <v-container fill-height fluid sm>
         <v-row class="text-center" align="center" justify="center">
             <v-col>
                 <div v-show="showTime" class="time">
