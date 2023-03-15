@@ -9,7 +9,6 @@
 📆 Live Date and Time  
 🌙 Dark Mode  
 ☀️ Live weather (Coming soon)  
-💻 Full screen mode (Coming soon)
 
 ## Project setup
 ```
