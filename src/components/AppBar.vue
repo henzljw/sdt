@@ -8,10 +8,6 @@
         <v-btn icon v-if="$vuetify.theme.dark" @click="toggleTheme()">
             <v-icon color="yellow darken-3">mdi-lightbulb-on</v-icon>
         </v-btn>
-        <!-- Full screen icon button -->
-        <v-btn icon>
-            <v-icon>mdi-fullscreen</v-icon>
-        </v-btn>
         <!-- About sdt icon button -->
         <v-dialog persistent max-width="300" v-model="dialog">
             <template v-slot:activator="{ on, attrs }">
@@ -49,21 +45,14 @@
 <script>
 export default {
     name: 'AppBar',
-
     data() {
         return {
             dialog: false,
-            fullscreen: false,
-            teleport: true,
         }
     },
-
     methods: {
         toggleTheme() {
             this.$vuetify.theme.dark = !this.$vuetify.theme.dark;
-        },
-        toggleFullScreen() {
-            this.fullscreen = !this.fullscreen
         },
     },
 }
